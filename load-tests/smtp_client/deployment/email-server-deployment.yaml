@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: email-service
-        image: greenmail/standalone:1.5.11
+        image: greenmail/standalone:1.6.7
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3025
